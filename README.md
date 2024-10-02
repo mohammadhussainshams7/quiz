@@ -35,14 +35,14 @@ To get a local copy up and running, follow these simple steps:
    git clone https://github.com/mohammadhussainshams7/quiz.git
 
 2. Enter the Directory:
-   ```bash
-  cd quiz
+   ```bash cd quiz
+  
   
 3. install vendor:
-   ```bash
-  composer install
+   ```bash  composer install
+
 
 4. install packages:
-   ```bash
-  npm install
+   ```bash  npm install
+
 
