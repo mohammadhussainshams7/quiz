@@ -1,0 +1,67 @@
+
+.main{
+    background-color: #F9F9F9;
+    padding: 30px 15px;
+}
+.question , .ansser{
+    color: #333333;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+.card-title .form-check{
+    border: 1px solid gray;
+    border-radius: 10px;
+    position: relative;
+
+}
+.ansser .form-check{
+    margin: 20px;
+    border: 1px solid #c7cdcb !important;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    transition: 2s  cubic-bezier(0.23, 1, 0.320, 1);
+}
+.ansser .form-check .form-check-input{
+    margin: 0 20px ;
+    padding: 10px;
+}
+.ansser .form-check .form-check-label{
+    min-width: 93%;
+}
+/* .ansser .form-check .form-check-label{
+    background-color: #4CAF50;
+} */
+
+.footer , .bg-body-tertiary{
+    background: #FFFFFF !important;
+    color: #000000 !important;
+}
+.bg-body-tertiary a{
+    color: #400f0f !important;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+/*     padding: 20px;
+ */    margin-top: 20px;
+}
+/* .footer .btn:hover{
+    background-color: #4CAF50;
+} */
+/* .footer .btn-primary{
+
+} */
+.form-check.selected  ,.ansser .form-check:hover {
+    background-color: #4CAF50; /* Light green background for selected */
+}
+.ansser .form-check.right{
+    background-color: #4CAF50;
+}
+.ansser .form-check.wrong{
+    background-color: #af4c4c;
+}
+#timer{
+    margin-left: 30px !important;
+}
