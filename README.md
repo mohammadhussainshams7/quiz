@@ -33,3 +33,16 @@ To get a local copy up and running, follow these simple steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/mohammadhussainshams7/quiz.git
+
+   2. Enter the Directory:
+   ```bash
+  cd quiz
+  
+   3. install vendor:
+   ```bash
+  composer install
+
+   3. install packages:
+   ```bash
+  npm install
+
