@@ -34,14 +34,16 @@ To get a local copy up and running, follow these simple steps:
    ```bash
    git clone https://github.com/mohammadhussainshams7/quiz.git
 
+
 2. Enter the Directory:
    ```bash
    cd quiz
   
-  
+
 3. install vendor:
    ```bash
    composer install
+
 
 
 4. install packages:
